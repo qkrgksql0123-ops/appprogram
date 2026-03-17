@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 프로젝트 설명 (한국어)
+
+이 프로젝트는 손글씨로 쓴 숫자(0-9)를 인식하는 AI 애플리케이션입니다. 사용자가 그린 숫자를 머신러닝 모델이 인식하고, 사용자가 정답을 입력하면 그 데이터로 모델을 학습시켜 정확도를 높입니다.
+Tkinter(데스크톱)와 Flask(웹) 두 가지 인터페이스를 모두 지원하며, scikit-learn의 MLPClassifier를 사용해 97% 이상의 정확도를 달성했습니다.
+
+## 오늘 배운 것 (한국어)
+
+Canvas 그리기, 이미지 전처리, 머신러닝 모델 학습 및 재학습을 구현했습니다.
+사용자 피드백으로 모델을 지속적으로 개선하는 Active Learning 개념과 Tkinter/Flask를 활용한 GUI/웹 개발을 경험했습니다.
+
 ## Project Overview
 
 A handwritten digit recognition application with a Tkinter GUI and active learning capability. The application allows users to draw digits (0-9), recognize them using a pre-trained model, and improve accuracy by providing corrected labels for retraining.
